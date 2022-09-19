@@ -1,0 +1,58 @@
+// GENERAL
+$spacer: 3rem;
+
+// FONTS
+$cabin-font: 'Cabin', sans-serif;
+$hepta-font: 'Hepta Slab', serif;
+
+$font-family-base: $cabin-font;
+$headings-font-family: $cabin-font;
+
+// COLORS
+
+/*  note: colors are in order as they appear on the style guide */
+
+// PRIMARY - Colors
+$blue: rgba(130,168,217,1);
+$teal: rgba(57,201,186,1);
+$green: rgba(67,191,49,1);
+
+// SECONDARY - Colors
+// $yellow;
+$dark-green: rgba(1,114,63,1);
+// $light-blue;
+$ocean-blue: rgba(0,172,234,1);
+$med-blue: rgba(72, 133, 197,1);
+// $dark-blue;
+$light-grey: #cfcdca;
+// $med-grey;
+// $dark-grey;
+
+// GRADIENT - Use with .bg-gradient
+$gradient: linear-gradient(90deg, $blue 0%, $teal 50%, $green 100%); 
+
+// BOOTSTRAP - Colors
+$primary: $green; 
+$secondary: $blue;
+$info: $med-blue;
+$success: $dark-green;
+$warning: $ocean-blue;
+$danger: $teal;
+
+// BUTTONS
+$btn-border-radius: 0;
+
+
+// BACKGROUNDS
+$cyc-bg: rgb(110,170,220);
+$cyc-bg-gradient: linear-gradient(90deg, $blue 0%, $teal 50%, $green 100%);
+
+
+// NAVIGATION
+
+$navbar-light-color: $primary;
+$navbar-light-hover-color: $secondary;
+$navbar-light-active-color: $secondary;
+$navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
+$navbar-light-toggler-border-color: $primary;
+

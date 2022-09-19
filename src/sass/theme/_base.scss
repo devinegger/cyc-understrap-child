@@ -1,0 +1,50 @@
+h1 {
+    font-family: $hepta-font;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: $hepta-font;
+    font-weight: bold;
+}
+
+.font-cabin {
+    font-family: $cabin-font;
+}
+
+.font-hepta {
+    font-family: $hepta-font;
+}
+
+.btn-primary {
+    color: #fff;
+
+    &:hover {
+        color: $white;
+        background-color: $blue;
+        border-color: $blue;
+    }
+}
+
+.btn-white {
+    @extend .btn;
+    background-color: $white;
+    color: $green;
+
+    &:hover {
+        color: $white;
+        background-color: $green;
+    }
+}
+
+// forget about shortcode buttons
+.fasc-button {
+    @extend .btn;
+}
+
+.divider::before {
+    @extend .bg-gradient;
+    content: '';
+    display: block;
+    height: .5rem;
+}

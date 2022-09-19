@@ -1,0 +1,10 @@
+#wrapper-navbar::before {
+    @extend .bg-gradient;
+    content: '';
+    display: block;
+    height: 1rem;
+}
+
+.navbar-brand {
+    width: 14rem;
+}
