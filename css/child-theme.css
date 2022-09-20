@@ -6,7 +6,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Hepta+Slab:wght@400;700");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Hepta+Slab:wght@400;500;700");
 :root {
   --bs-blue: #82a8d9;
   --bs-indigo: #6610f2;
@@ -3984,7 +3984,7 @@ textarea.form-control-lg {
 
 .btn, .wpcf7 input[type=submit], .fasc-button, .btn-white, .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   color: #212529;
   text-align: center;
@@ -5018,6 +5018,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-weight: 500;
   color: #43bf31;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -15646,7 +15647,6 @@ h1, .h1 {
 .btn, .wpcf7 input[type=submit], .fasc-button, .btn-white, .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-info a.button {
   text-transform: uppercase;
   font-family: "Hepta Slab", serif;
-  font-weight: bold;
 }
 
 .font-cabin {
@@ -15691,6 +15691,16 @@ h1, .h1 {
   width: 14rem;
 }
 
+@media (max-width: 767.98px) {
+  #navbarNavDropdown {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    top: 124px;
+    left: 0px;
+    padding: 1rem;
+  }
+}
 #homepage-hero .img-fluid {
   width: 100%;
 }
@@ -15788,7 +15798,14 @@ h1, .h1 {
     opacity: 1;
   }
 }
-.title-image {
+#page-title h1, #page-title .h1 {
+  margin-bottom: 0.5rem;
+}
+#page-title p {
+  font-size: 18px;
+  font-weight: 400;
+}
+#page-title .title-image {
   width: 100%;
   height: 100%;
 }
@@ -15849,12 +15866,17 @@ h4, .h4 {
   margin-bottom: 2rem;
 }
 
+a {
+  color: #fff;
+}
+
 .social--icon {
-  height: 3rem;
-  width: 3rem;
-  padding: 1rem;
-  border-radius: 1.5rem;
-  margin: 0.25rem;
+  max-width: 48px;
+  margin-right: 0.25rem;
+}
+
+.site-info {
+  padding: 0.25rem 0;
 }
 
 .has-blue-color,

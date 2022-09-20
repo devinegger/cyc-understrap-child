@@ -20,7 +20,7 @@ $right_image = create_html_image(get_sub_field('right_image'))
 
 <section class="column-row-section">
     <div class="container-fluid px-2 px-md-3 px-lg-4 px-xl-5">
-        <div class="row">
+        <div class="row pb-3">
             <div class="col-md-7 m-auto">
                 <div class="row">
 

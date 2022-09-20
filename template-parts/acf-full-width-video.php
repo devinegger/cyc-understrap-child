@@ -4,8 +4,6 @@
  * Template Part for displaying ACF Flexible Content - Page Section - Full Width Video
  */
 
-
-
 $heading_color = get_sub_field('heading_color');
 $heading = get_sub_field('heading');
 $youtube_url = get_sub_field('youtube_url');
@@ -16,11 +14,9 @@ $video_code = substr($youtube_url,strpos($youtube_url,'/',8)+1);
 
 
 $heading_color ? $text_class = "text-" . $heading_color : $text_class = '';
-
-
 ?>
 
-<section>
+<section class="full-width-video">
     <div class="container-fluid py-3 px-2 px-md-3 px-lg-4 px-xl-5">
         <div class="row">
             <div class="col-12 text-start">
@@ -34,5 +30,3 @@ $heading_color ? $text_class = "text-" . $heading_color : $text_class = '';
         </div><!-- .row -->
     </div>
 </section>
-
-

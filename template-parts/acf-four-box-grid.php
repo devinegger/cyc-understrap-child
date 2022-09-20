@@ -7,16 +7,16 @@
 $heading = get_sub_field('heading');
 $heading_color = get_sub_field('heading_color');
 
+// grid of 4 boxes 2x2
 $boxes = get_sub_field('box_grid');
 
 $button = get_sub_field('button');
 
 // create a bootstrap text class for the heading color
 $text_class = "text-" . $heading_color;
-
 ?>
 
-<section>
+<section class="four-box-grid">
     <div class="container-fluid py-3 px-2 px-md-3 px-lg-4 px-xl-5">
         <h2 class="<?= $text_class ?>"><?= $heading ?></h2>
         <div class="row row-cols-1 row-cols-md-2 g-1">
@@ -33,6 +33,5 @@ $text_class = "text-" . $heading_color;
         <p class="text-center p-2">
             <a class="btn btn-primary" href="<?= $button['url'] ?>"><?= $button['title'] ?></a>
         </p>
-        
     </div>
 </section>

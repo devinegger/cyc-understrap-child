@@ -14,8 +14,6 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header();
-
-
 ?>
 
 <main class="site-main" id="main">

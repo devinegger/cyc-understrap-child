@@ -1,16 +1,14 @@
 <?php 
 
 /** 
- * Template Part for displaying ACF Flexible Content - Page Section - Sub Section Detail with Image
+ * Template Part for displaying ACF Flexible Content - Page Section - Two Column Content Groups
  */
-
 
 $column_left_group = get_sub_field('column_left');
 $left_repeater = $column_left_group['left_content_group_repeater'];
 
 $column_right_group = get_sub_field('column_right');
-$right_repeater = $column_right_group['right_content_group_repeater']
-
+$right_repeater = $column_right_group['right_content_group_repeater'];
 ?>
 
 <section class="two-column-content-group">

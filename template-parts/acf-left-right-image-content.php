@@ -12,11 +12,9 @@ $content = get_sub_field('content');
 $button = get_sub_field('button');
 
 $heading_color ? $text_class = "text-" . $heading_color : $text_class = '';
-
-
 ?>
 
-<section>
+<section class="left-right-image-content">
     <div class="container-fluid py-3 px-2 px-md-3 px-lg-4 px-xl-5">
         <div class="row">
             <div class="col-md-6">

@@ -9,11 +9,9 @@ $heading = get_sub_field('heading');
 $content = get_sub_field('content');
 
 $heading_color ? $text_class = "text-" . $heading_color : $text_class = '';
-
-
 ?>
 
-<section>
+<section class="full-width-content">
     <div class="container-fluid py-3 px-2 px-md-3 px-lg-4 px-xl-5">
         <div class="row">
             <div class="col-12 text-start">
@@ -23,5 +21,5 @@ $heading_color ? $text_class = "text-" . $heading_color : $text_class = '';
                 <?= $content ?>
             </div>
         </div><!-- .row -->
-    </div>
+    </div><!-- .container-fluid -->
 </section>

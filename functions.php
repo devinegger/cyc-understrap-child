@@ -131,7 +131,7 @@ if( function_exists('acf_add_options_page') ) {
 	// break out image array
 	$image_ID = $image_arr['ID'];
 	$image_url = $image_arr['url'];
-	$image_alt = $image_alt['alt'];
+	$image_alt = $image_arr['alt'];
 
 	// create HTML image
 	$image = wp_get_attachment_image( $image_ID, 'full', '', array('src' => $image_url, 'alt' => $image_alt, 'class' => $classes ) );

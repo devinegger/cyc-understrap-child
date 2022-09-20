@@ -13,7 +13,6 @@ $content = get_sub_field('content');
 $image_side === 'right' ? $order_class = "order-md-2" : $order_class = "";
 
 $heading_color ? $text_class = "text-" . $heading_color : $text_class = "";
-
 ?>
 
 <section class="sub-section-detail">

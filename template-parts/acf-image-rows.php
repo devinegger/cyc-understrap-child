@@ -7,7 +7,7 @@
 $image_rows = get_sub_field('image_row_repeater');
 ?>
 
-<section>
+<section class="image-rows">
     <div class="container-fluid py-3 px-2 px-md-3 px-lg-4 px-xl-5">
 
         <?php  foreach($image_rows as $image_row): ?>
