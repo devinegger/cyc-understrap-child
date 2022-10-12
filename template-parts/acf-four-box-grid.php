@@ -17,7 +17,7 @@ $text_class = "text-" . $heading_color;
 ?>
 
 <section class="four-box-grid">
-    <div class="container-fluid py-3 px-2 px-md-3 px-lg-4 px-xl-5">
+    <div class="container-fluid py-2 px-2 px-md-3 px-lg-4 px-xl-5">
         <h2 class="<?= $text_class ?>"><?= $heading ?></h2>
         <div class="row row-cols-1 row-cols-md-2 g-1">
             <?php foreach($boxes as $box): ?>

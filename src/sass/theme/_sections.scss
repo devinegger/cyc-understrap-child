@@ -1,26 +1,31 @@
 // Sub Section Detail with Image
 .sub-section-detail {
+
+    h4, h5, h6 {
+        margin-bottom: 1rem;
+    }
     .heading-danger {
-        h4 {
+        h4, h5, h6 {
             color: $danger;
         }
     }
 
     .heading-primary {
-        h4 {
+        h4, h5, h6 {
             color: $primary;
         }
     }
 
     .heading-secondary {
-        h4 {
+        h4 , h5, h6{
             color: $secondary;
         }
     }
 
     .heading-info {
-        h4 {
+        h4, h5, h6 {
             color: $info;
+            
         }
     }
 }

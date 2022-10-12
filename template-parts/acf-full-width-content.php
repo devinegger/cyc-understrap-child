@@ -12,7 +12,7 @@ $heading_color ? $text_class = "text-" . $heading_color : $text_class = '';
 ?>
 
 <section class="full-width-content">
-    <div class="container-fluid py-3 px-2 px-md-3 px-lg-4 px-xl-5">
+    <div class="container-fluid py-1 py-md-3 px-2 px-md-3 px-lg-4 px-xl-5">
         <div class="row">
             <div class="col-12 text-start">
                 <?php if($heading): ?>

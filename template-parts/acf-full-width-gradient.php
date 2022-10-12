@@ -20,7 +20,7 @@ $font_size['label'] === 'Small' ? $column_class .= " col-lg-8" : $column_class .
 ?>
 
 <section class="full-width-gradient bg-gradient">
-    <div class="container-fluid py-5 px-2 px-md-3 px-lg-4 px-xl-5 text-center text-white <?= $font_class ?> <?= $font_size['value'] ?>">
+    <div class="container-fluid py-3 py-lg-5 px-2 px-md-3 px-lg-4 px-xl-5 text-center text-white <?= $font_class ?> <?= $font_size['value'] ?>">
         <div class="row justify-content-center">
             <div class="<?= $column_class ?>">
                 <p class="<?= $transform_class ?>"><?= $content ?></p>

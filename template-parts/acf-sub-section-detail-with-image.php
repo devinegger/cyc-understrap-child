@@ -18,7 +18,7 @@ $heading_color ? $text_class = "text-" . $heading_color : $text_class = "";
 <section class="sub-section-detail">
     <div class="container-fluid px-2 px-md-3 px-lg-4 px-xl-5">
         <div class="row">
-            <div class="col-md-4 <?= $order_class ?> m-auto">
+            <div class="col-md-4 <?= $order_class ?> my-2 m-lg-auto">
                 <?= $image ?>
             </div>
             <div class="col-md-8 text-start">

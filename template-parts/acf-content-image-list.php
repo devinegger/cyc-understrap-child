@@ -8,7 +8,7 @@ $list_rows = get_sub_field('list_repeater');
 ?>
 
 <section class="content-image-list">
-    <div class="container-fluid px-2 px-md-3 px-lg-4 px-xl-5">
+    <div class="container-fluid p-2 px-md-3 px-lg-4 px-xl-5">
 
         <?php  foreach($list_rows as $list_row): ?>
 
@@ -27,10 +27,10 @@ $list_rows = get_sub_field('list_repeater');
                     <h3 class="<?= $text_class ?>"><?= $heading ?></h3>
                     <p><?= $content ?></p>
                     <?php if($link): ?>
-                        <a href="<?= $link['url'] ?>" class="text-primary font-hepta"><?= $link['title'] ?></a>
+                        <a href="<?= $link['url'] ?>" class="text-primary font-hepta" target="<?= $link['target'] ?>"><?= $link['title'] ?></a>
                     <?php endif; ?>
                 </div>
-                <div class="col-md-4 col-lg-3 m-auto ps-2">
+                <div class="col-md-4 col-lg-3 my-2 m-lg-auto ps-lg-2 text-center">
                     <?= $image ?>
                 </div>
             </div><!-- .row -->

@@ -15,9 +15,9 @@ $heading_color ? $text_class = "text-" . $heading_color : $text_class = '';
 ?>
 
 <section class="left-right-image-content">
-    <div class="container-fluid py-3 px-2 px-md-3 px-lg-4 px-xl-5">
+    <div class="container-fluid py-2 py-lg-3 px-2 px-md-3 px-lg-4 px-xl-5">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 mb-2 mb-lg-0">
                 <?= $image ?>
             </div>
             <div class="col-md-6 text-start m-auto">
